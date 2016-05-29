@@ -3,6 +3,7 @@
 using namespace std;
 #define sp std::shared_ptr
 #define ms std::make_shared
+
 class HousePlan{
 	public:
 		virtual void setWindow(string) = 0;
