@@ -64,7 +64,7 @@ class HtcFactory: public MobileFactory{
 
 int main(){
 	
-	sp<MobileFactory> samsungFactory = sp<SamsungFactory>();
+	sp<MobileFactory> samsungFactory = sp<SamsungFactory>(new SamsungFactory);
 	
 	try{
 		sp<DumbMobile> samsungDumb = samsungFactory->getDumbMobile();
