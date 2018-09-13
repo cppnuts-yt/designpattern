@@ -60,7 +60,7 @@ public:
 
 // Defines steps and tells to the builder that build in given order.
 class Director{
-    Builder *builder;
+    PlaneBuilder *builder;
 public:
     Plane* createPlane(PlaneBuilder *builder) {
         builder->getPartsDone();
