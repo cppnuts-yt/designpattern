@@ -19,7 +19,6 @@ public:
 };
 
 class Car : public Toy {
-	// make all constructor private or protected!!
 public:
 	void prepareParts()  { cout << "Preparing Car Parts" << endl;}
 	void combineParts()  { cout << "Combining Car Parts" << endl;}
@@ -29,7 +28,6 @@ public:
 };
 
 class Bike : public Toy {
-	// make all constructor private or protected!!
 public:
 	void prepareParts()  { cout << "Preparing Bike Parts" << endl;}
 	void combineParts()  { cout << "Combining Bike Parts" << endl;}
@@ -39,7 +37,6 @@ public:
 };
 
 class Plane : public Toy {
-	// make all constructor private or protected!!
 public:
 	void prepareParts()  { cout << "Preparing Plane Parts" << endl;}
 	void combineParts()  { cout << "Combining Plane Parts" << endl;}
